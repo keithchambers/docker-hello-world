@@ -9,15 +9,11 @@
 		padding: 50px;
 		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	}
-
-	#logo {
-		margin-bottom: 40px;
-	}
 	</style>
 </head>
 <body>
 	<img id="logo" src="logo.png" />
-	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:"world")."!"; ?></h1>
+	<h1><?php echo "Hello world!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 </body>
 </html>
