@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Hello, world.</title>
+	<title>Hello, world!</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	body {
@@ -13,7 +13,7 @@
 </head>
 <body>
 	<img id="logo" src="logo.png" />
-	<h1><?php echo "Hello, world."; ?></h1>
+	<h1><?php echo "Hello, world!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>Container <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 </body>
 </html>
